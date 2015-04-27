@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class MostrarCliente extends ActionBarActivity {
@@ -17,6 +18,15 @@ public class MostrarCliente extends ActionBarActivity {
         Intent i = getIntent();
 
         Cliente cliente = (Cliente)  i.getSerializableExtra("cliente");
+
+        private TextView campo01;
+        private TextView campo02;
+        private TextView campo03;
+        private TextView campo04;
+        private TextView campo05;
+        private TextView campo06;
+        private TextView campo07;
+        private TextView campo08;
 
     }
 
